@@ -2,3 +2,10 @@
     background-color: aquamarine;
     color: darkslategray;
 }
+
+@font-face {
+    font-family: FontAwesome;
+    src: url(/css/fonts/fontawesome-webfont);
+    font-weight: 400;
+    font-style: normal
+}

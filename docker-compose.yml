@@ -33,6 +33,8 @@ services:
   # MySQL Service
   mysql:
     image: mysql
+    ports:
+      - 8888:3306
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: library
